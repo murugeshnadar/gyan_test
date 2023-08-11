@@ -46,7 +46,7 @@
             border: 1px solid #f8fbff;
             border-radius: 27px;
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-            margin-bottom: 20px;
+            margin-bottom: 20px !important;
             width: 260px !important;
         }
         .entry .entry-item input:not(.search-box) {
@@ -63,16 +63,19 @@
         }
         .intro h2, .heading {
             display: block;
-            /* margin-block-start: 1.67em;
-            margin-block-end: 1.67em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px; */
             font-weight: bold;
-            font-size: .9375rem;
+            font-size: .9375rem !important;
             font-family: Work Sans,sans-serif;
         }
-        .intro, .password-label, .entry-item label  {
+        .intro, .password-label label, .entry-item label  {
             display: none !important;
+        }
+        .password-label a  {
+            display: block !important;
+            color: #3bc483 !important;
+            text-decoration: none !important;
+            background-color: transparent !important;
+            font: normal 0.5rem/0.75rem Work Sans,sans-serif  !important;
         }
 
     </style>
