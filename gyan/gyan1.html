@@ -10,10 +10,10 @@
     <link rel="shortcut icon" href="https://murugeshnadar.github.io/gyan_test/gyan/favicon.png">
     <title>Gyan</title>
 
-    <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <link rel="stylesheet" href="https://murugeshnadar.github.io/gyan_test/gyan/styles.css">
     
-    <style >
+    <!-- <style >
         #SignInWithLogonNameExchange, #SignUpWithLogonEmailExchange, #SignUpWithLogonNameExchange {
             background-image: url(https://login.microsoftonline.com/templates/src/idp_logos/colored/local.svg);
         }
@@ -28,6 +28,44 @@
             background-image: none;
             background-color: transparent !important;
         }
+    </style> -->
+
+    <style >
+        .entry .entry-item input {
+            display: block;
+            width: 100%;
+            height: 30px;
+            padding: 0.375rem 0.75rem;
+            font-family: "Work Sans", sans-serif;
+            font-size: 0.625rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #a8b8ca;
+            background-color: #fcfcfc;
+            background-clip: padding-box;
+            border: 1px solid #f8fbff;
+            border-radius: 27px;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+        .buttons button {
+            color: #fcfcfc!important;
+            padding: 0.515rem 2rem;
+            background: #3bc483;
+            box-shadow: 0 1px 4px rgba(168,184,202,.5)!important;
+            text-align: center;
+            border-radius: 27px;
+            font: normal 10px/12px Work Sans,sans-serif;
+        }
+        .intro h2, .heading {
+            display: block;
+            font-size: 0.83em;
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body class="app app-background-color">
@@ -51,7 +89,7 @@
                                                 <div class="page-subtitle text-center mb-4 pb-3">Provide your topic of interest and Gyan’s AI will discover content from your preferred sources, check for relevance, surface major themes, and synthesize the information, all in one place. Knowledge, simplified.</div>
                                             </div>
                                             <div class="row d-flex justify-content-center text-center px-5">
-                                                <div id="api" role="main"></div>
+                                                <div id="api" data-name="Unified" role="main"></div>
                                             </div>
                                             
 
