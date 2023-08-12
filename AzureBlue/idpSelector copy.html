@@ -10,6 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="https://gyan-dev.gyan-research.com/assets/favicon.png">
     <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style id="common">
+        @font-face {
+            font-family: 'SegoeUI';
+            src: url(https://login.microsoftonline.com/templates/src/fonts/segoeui.WOFF);
+            font-weight: normal;
+        }
+        @font-face {
+            font-family: 'SegoeUI';
+            src: url(https://login.microsoftonline.com/templates/src/fonts/segoeui_bold.WOFF);
+            font-weight: bold;
+        }
+    </style>
     <style id="idpselector">
         #SignInWithLogonNameExchange, #SignUpWithLogonEmailExchange, #SignUpWithLogonNameExchange {
             background-image: url(https://login.microsoftonline.com/templates/src/idp_logos/colored/local.svg);
@@ -44,45 +56,8 @@
         /* endinject */
     </style>
 
-    <style>
-        .app-background-color {
-            background: radial-gradient(64.7% 64.7% at 51.8% 62.15%, #d8f4db 1.68%, rgba(225, 244, 216, 0.75) 44.43%, #e2faf8 89.7%);
-        }
-        #background_branding_container img{
-            margin-top: 50px !important;
-        }
-        .panel-default{
-            border: 0px solid transparent !important;
-        }
-        .panel-body {
-            padding: 1.25rem !important;
-            background: #fcfcfc !important;
-            opacity: 0.9 !important;
-            -webkit-backdrop-filter: blur(60px) !important;
-            backdrop-filter: blur(60px) !important;
-        }
-        .companyLogo{
-            width: auto;
-            height: 33px !important;
-            font: 400 24px/24px "Work Sans", sans-serif !important;
-        }
-        .page-title{
-            font: 400 24px/24px "Work Sans", sans-serif !important;
-            color: #2a3747 !important;
-            padding: 1rem 3rem  !important;
-            margin: 0.25rem 1rem !important;
-        }
-        .text-center {
-            text-align: center !important;
-            padding-bottom: 1rem !important;
-            margin-bottom: 1.5rem !important;
-            font: 400 12px/16px "Work Sans", sans-serif !important;
-            color: #2a3747 !important;
-        }
-    </style>
-
 </head>
-<body class="app app-background-color">
+<body>
     <div id="background_branding_container" data-tenant-branding-background-color="true">
       <img data-tenant-branding-background="true" src="https://gyan-dev.gyan-research.com/login_back_image.d78c99a6afac6893fc13.png" alt="Illustration"/>
     </div>
