@@ -10,6 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="https://gyan-dev.gyan-research.com/assets/favicon.png">
     <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style id="common">
+        /* @font-face {
+            font-family: 'Work Sans';
+            src: url(https://login.microsoftonline.com/templates/src/fonts/segoeui.WOFF);
+            font-weight: normal;
+        } */
+    </style>
     <style id="idpselector">
         #SignInWithLogonNameExchange, #SignUpWithLogonEmailExchange, #SignUpWithLogonNameExchange {
             background-image: url(https://login.microsoftonline.com/templates/src/idp_logos/colored/local.svg);
@@ -48,6 +55,9 @@
         body {
             background: radial-gradient(64.7% 64.7% at 51.8% 62.15%, #d8f4db 1.68%, rgba(225, 244, 216, 0.75) 44.43%, #e2faf8 89.7%) !important;
         }
+        .col-lg-6 {
+            max-width: 40% !important;;
+        }
         #background_branding_container img{
             /* padding-top: 50px !important; */
         }
@@ -68,7 +78,7 @@
             font: 400 24px/24px "Work Sans", sans-serif !important;
         }
         .page-title{
-            font: 400 24px/24px "Work Sans", sans-serif !important;
+            font: 300 24px/24px "Work Sans", sans-serif !important;
             color: #2a3747 !important;
             padding: 1rem 3rem  !important;
             margin: 0.25rem 1rem !important;
@@ -77,7 +87,7 @@
             text-align: center !important;
             padding-bottom: 0rem !important;
             margin-bottom: 0rem !important;
-            font: 400 12px/16px "Work Sans", sans-serif !important;
+            font: 200 12px/16px "Work Sans", sans-serif !important;
             color: #2a3747 !important;
         }
         .unified_container .row .panel-default #api .localAccount .entry .entry-item {
