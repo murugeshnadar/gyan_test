@@ -111,20 +111,17 @@
             text-align: center !important;
             margin: 30px 0 0 0;
         }
-        .unified_container .row .panel-default #api .localAccount .entry .buttons button,
-        .buttons button {
-            color: #fcfcfc!important;
-            padding: 1rem 1rem;
-            background: #3bc483;
-            text-align: center !important;
-            border-radius: 27px;
-            font: normal 10px/12px Work Sans,sans-serif;
-            border-width: 0;
-            margin: 0 auto !important;
+        .unified_container .row .panel-default #api .localAccount .entry .buttons button:focus, 
+        .unified_container .row .panel-default #api .localAccount .entry .buttons button:hover {
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background-color: #1662c7;
+            color: #fff;
         }
         .unified_container .row .panel-default #api .localAccount .entry .buttons button:hover,
         .buttons button:hover {
-            color: #29895c !important;
+            background-color: #29895c !important;
             text-decoration: underline !important;
         }
         .unified_container .row .panel-default #api .localAccount .error {
